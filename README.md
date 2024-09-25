@@ -12,8 +12,6 @@ The goal of the project is to create a model that extracts and predicts entity v
 ## Literature Review
 Various studies and models have been developed to extract information from images. The use of CNNs for feature extraction, combined with OCR for text recognition, has shown promising results in similar problems. However, challenges such as varied image quality, complex text layouts, and multiple entities in a single image require a hybrid approach. 
 
-## Literature Review
-
 | **Study**                                                | **Authors**                            | **Year** | **Focus**                                          | **Key Findings**                                                                                       | **Challenges**                                                                                  | **Methodology**                                                                                                           |
 |----------------------------------------------------------|----------------------------------------|----------|----------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | **Deep Residual Learning for Image Recognition**          | K. He, X. Zhang, S. Ren, J. Sun        | 2016     | CNN for feature extraction in image recognition    | ResNet allows training of very deep networks by using residual learning, improving performance.          | Training very deep networks can lead to vanishing gradients.                             | Introduced a residual learning framework (ResNet) to solve the vanishing gradient problem in deep networks.               |
@@ -80,7 +78,6 @@ The **Image Quant** project successfully developed a hybrid machine learning mod
 - Fine-tune hyperparameters using Bayesian optimization for better generalization.
 - Extend the model to handle multi-entity prediction in images with multiple products.
 
-## References
 ## References
 1. He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. [Article Link](https://arxiv.org/abs/1512.03385)
 2. Smith, R. (2007). An Overview of the Tesseract OCR Engine. [Article Link](https://ieeexplore.ieee.org/document/4376991)
