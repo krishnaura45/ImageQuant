@@ -1,7 +1,7 @@
-<h1 align="center">Amazon ML Challenge 2024 Solution</h1>
- <h2 align="center">ImageQuant : Entity Retrieval from Images for Digital Markets</h2>
+<h1 align="center">ImageQuant: Entity Retrieval from Images for Digital Markets</h1>
+<h2 align="center">Amazon ML Challenge 2024 Solution-1</h2>
 
-# Image Quant - Entity Retrieval from Product Images for Digital Markets
+**Project Duration**: Sept 13 2024 - Sept 15 2024
 
 ## Introduction
 **Image Quant** is a machine learning solution designed to extract critical entity values (e.g., weight, volume, voltage) from product images in digital markets. This project combines advanced computer vision techniques, such as Convolutional Neural Networks (CNN), Optical Character Recognition (OCR), and Long Short-Term Memory (LSTM), to build a robust model capable of predicting accurate values and their respective units from product images.
@@ -24,7 +24,7 @@ Various studies and models have been developed to extract information from image
 In this project, a combination of CNN, OCR, and LSTM architectures is employed to achieve high accuracy in entity value prediction.
 
 ## Objectives
-The key objectives of **Image Quant** include:
+The key objectives include:
 1. Develop a model to extract entity values (e.g., weight, volume) from product images.
 2. Ensure high accuracy in predicting both the values and their associated units.
 3. Optimize the model to improve performance during inference.
@@ -70,7 +70,7 @@ The key objectives of **Image Quant** include:
 - Post-process the model predictions and run a sanity check on the output to validate the results.
 
 ## Conclusion/Outcomes
-The **Image Quant** project successfully developed a hybrid machine learning model that achieved **87% validation accuracy** and an **F1 score of 0.85**. The model demonstrated its ability to accurately predict entity values and units from product images. The combination of CNN and OCR provided robust feature extraction capabilities, and performance optimizations further improved inference speed.
+The **Image Quant** project successfully developed a hybrid machine learning model that achieved **42% validation accuracy** and an **F1 score of 0.35**. The model demonstrated its ability to accurately predict entity values and units from product images. The combination of CNN and OCR provided robust feature extraction capabilities, and performance optimizations further improved inference speed.
 
 ## Future Scope
 - Implement data augmentation techniques to increase model robustness.
